@@ -2,8 +2,8 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: npm start # runs during prebuild
-    command: echo 'start script'
+  - init: npm install # runs during prebuild
+    command: npm start
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
